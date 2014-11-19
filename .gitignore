@@ -1,8 +1,33 @@
 /bootstrap/compiled.php
 /vendor
 composer.phar
-composer.lock
 .env.*.php
 .env.php
+.idea/
+._*
+._.DS_Store
 .DS_Store
 Thumbs.db
+.idea
+.project
+*.project
+*.swp
+*.sublime-project
+*.sublime-workspace
+.git
+sftp-config.json
+cache.properties
+build
+codeception.yml
+tests/_log
+tests/_private
+tests/acceptance.suite.yml
+tests/unit.suite.yml
+tests/functional.suite.yml
+nohup.out
+*.pyc
+ecim-*
+*.tar
+# Commit your application's lock file http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file
+# You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
+# composer.lock
